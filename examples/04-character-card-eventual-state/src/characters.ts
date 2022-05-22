@@ -1,4 +1,3 @@
-import shuffle from "lodash.shuffle";
 import data from "./data";
 
 export type CharacterType = {
@@ -14,6 +13,6 @@ export type CharacterType = {
 };
 
 export const fetchCharacter = (): Promise<CharacterType> => {
-  const [character] = shuffle(data);
+  const [character] = [data[Math.floor(Math.random() * data.length)]];
   return Promise.resolve(character);
 };
