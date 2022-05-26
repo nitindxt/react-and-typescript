@@ -1,8 +1,9 @@
-import * as React from 'react';
+import * as React from "react";
 
+import { CharacterType, fetchCharacter } from "./characters";
 
-import { Loading } from './Loading';
-import { CharacterInformation } from './CharacterInformation';
+import { Loading } from "./Loading";
+import { CharacterInformation } from "./CharacterInformation";
 
 const App = () => {
   const [character, setCharacter] = React.useState<CharacterType | null>(null);
