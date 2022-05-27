@@ -40,7 +40,10 @@ const CurrentUser = ({ displayName, isVerified }: CurrentUserProps) => {
     </header>
   );
 };
-
+/* Copying Props
+We can create a type for props out of the prop type of another component—even if we don't have direct access to the type itself.
+React.ComponentProps<typeof CurrentUser>
+*/
 const Friend = ({
   displayName,
   isVerified,
