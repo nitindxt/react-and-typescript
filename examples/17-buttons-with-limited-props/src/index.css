@@ -1,0 +1,91 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+button,
+input[type="submit"] {
+  background-color: magenta;
+  border: 5px solid #f9f;
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: #e600e6;
+}
+button:active,
+input[type="submit"]:active {
+  background-color: #c0c;
+}
+button.primary,
+input[type="submit"].primary {
+  background-color: #e600e6;
+}
+button.primary:hover,
+input[type="submit"].primary:hover {
+  background-color: #b300b3;
+}
+button.primary:active,
+input[type="submit"].primary:active {
+  background-color: #909;
+}
+button.secondary,
+input[type="submit"].secondary {
+  background-color: #fcf;
+}
+button.secondary:hover,
+input[type="submit"].secondary:hover {
+  background-color: #ff80ff;
+}
+button.secondary:active,
+input[type="submit"].secondary:active {
+  background-color: #f3f;
+}
+button.destructive,
+input[type="submit"].destructive {
+  background-color: #f07;
+}
+button.destructive:hover,
+input[type="submit"].destructive:hover {
+  background-color: #e6006b;
+}
+button.destructive:active,
+input[type="submit"].destructive:active {
+  background-color: #cc005f;
+}
+input {
+  padding: 1em;
+}
+input:not([type="submit"]) {
+  display: block;
+  margin: 0.5em;
+}
+form {
+  padding: 0.5em;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5em;
+}
+main {
+  border: 5px solid #fcf;
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 1em;
+  width: 600px;
+}
+header {
+  font-size: 8em;
+  text-align: center;
+}
