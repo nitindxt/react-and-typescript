@@ -6,7 +6,6 @@
   "directories": {
     "example": "examples"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nitinajaydixit/react-and-typescript.git"
@@ -20,15 +19,15 @@
   "homepage": "https://github.com/nitinajaydixit/react-and-typescript#readme",
   "dependencies": {
     "lodash.shuffle": "^4.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "recursive-install": "^1.4.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@vitejs/plugin-react": "^1.3.0",
-    "typescript": "^4.6.3",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@vitejs/plugin-react": "^1.3.2",
+    "typescript": "^4.7.2",
     "vite": "^2.9.9"
   }
 }
