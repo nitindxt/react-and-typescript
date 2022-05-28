@@ -1,0 +1,34 @@
+{
+  "name": "react-and-typescript",
+  "version": "1.0.0",
+  "description": "Reacting with typescript 😁",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinajaydixit/react-and-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinajaydixit/react-and-typescript/issues"
+  },
+  "homepage": "https://github.com/nitinajaydixit/react-and-typescript#readme",
+  "dependencies": {
+    "lodash.shuffle": "^4.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "recursive-install": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9"
+  }
+}
