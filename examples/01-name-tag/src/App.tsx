@@ -20,8 +20,6 @@ const NameTag = ({ name, greetingText = "Hello !" }: GreetingProps) => {
   );
 };
 
-const Application = () => (
-  <NameTag name="Nitin Dixit" greetingText="Good Evening!" />
-);
+const App = () => <NameTag name="Nitin Dixit" greetingText="Good Evening!" />;
 
-export default Application;
+export default App;
